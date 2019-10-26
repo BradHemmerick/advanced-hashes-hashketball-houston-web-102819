@@ -230,19 +230,19 @@ return most_rebounds
 end
 
 
-def most_points_scored
-  most_points = 0
-  player_name = ""
-  game_hash.each do |location, team_data|
-    team_data[:players].each  do |player|
-    # binding.pry
-    if most_points < player[:points]
-      most_points = player[:points]
-      player_name = player[:player_name]
-      binding.pry
-  end
-end
-end
-binding.pry
-return most_points
-end
+# def most_points_scored
+#   most_points = 0
+#   player_name = ""
+#   game_hash.each do |location, team_data|
+#     team_data[:players].each  do |player|
+#     # binding.pry
+#     if most_points < player[:points]
+#       most_points = player[:points]
+#       player_name = player[:player_name]
+#       binding.pry
+#   end
+# end
+# end
+# binding.pry
+# return most_points
+# end
