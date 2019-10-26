@@ -230,7 +230,7 @@ return most_rebounds
 end
 
 
-def big_shoe_rebounds
+def most_points_scored
   big_shoe = 0
   most_rebounds = 0
   player_name = ""
