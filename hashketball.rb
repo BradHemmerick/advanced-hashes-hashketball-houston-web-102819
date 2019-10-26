@@ -228,3 +228,20 @@ end
 end
 return most_rebounds
 end
+
+
+def big_shoe_rebounds
+  big_shoe = 0
+  most_rebounds = 0
+  player_name = ""
+  game_hash.each do |location, team_data|
+    team_data[:players].each  do |player|
+    # binding.pry
+    if big_shoe < player[:shoe]
+      big_shoe = player[:shoe]
+      most_rebounds = player[:rebounds]
+  end
+end
+end
+return most_rebounds
+end
