@@ -236,11 +236,11 @@ def most_points_scored
   game_hash.each do |location, team_data|
     team_data[:players].each  do |player|
     # binding.pry
-    if big_shoe < player[:shoe]
-      big_shoe = player[:shoe]
+    if most_points < player[:points]
+      big_shoe = player[:points]
       most_rebounds = player[:rebounds]
   end
 end
 end
-return most_rebounds
+return most_points
 end
