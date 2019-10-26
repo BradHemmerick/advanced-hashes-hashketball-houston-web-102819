@@ -237,8 +237,8 @@ def most_points_scored
     team_data[:players].each  do |player|
     # binding.pry
     if most_points < player[:points]
-      big_shoe = player[:points]
-      most_points = player[:player_name]
+      most_points = player[:points]
+      player_name = player[:player_name]
       binding.pry
   end
 end
