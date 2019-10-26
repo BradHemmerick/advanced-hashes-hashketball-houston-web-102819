@@ -231,8 +231,7 @@ end
 
 
 def most_points_scored
-  big_shoe = 0
-  most_rebounds = 0
+  most_points = 0
   player_name = ""
   game_hash.each do |location, team_data|
     team_data[:players].each  do |player|
