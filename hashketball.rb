@@ -238,7 +238,7 @@ def most_points_scored
     # binding.pry
     if most_points < player[:points]
       big_shoe = player[:points]
-      most_rebounds = player[:rebounds]
+      most_points = player[:player_name]
   end
 end
 end
